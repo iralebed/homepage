@@ -64,9 +64,14 @@ body {
         margin-bottom: 20px;
     }
 
-    .experiences {
+  /*  .experiences {
         margin-right: 0;
     }
+    */
+    .skills {
+        margin-right: 0;
+    }
+       
 }
 
 /* Contact info styles */
@@ -105,7 +110,7 @@ body {
 }
 
 .contact-info__item:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .contact-info__item-icon-wrapper {
@@ -136,6 +141,7 @@ body {
 /* Intro and skills styles */
 .intro {
     display: flex;
+    margin-top: 20px;
     justify-content: start;
 }
 
@@ -155,11 +161,15 @@ body {
     fill: var(--text-decoration-color);
 }
 
-.intro_text {
+.intro_text {    
     color: var(--secondary-text-color);
-    text-align: justify;
+    text-align: justify;    
 }
-
+/* .skills {
+     flex: 1 1 60%;
+     margin-right: 50px;
+ }
+*/
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
@@ -170,9 +180,11 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
-
+.skills ul {
+    margin-left: 25px;
+}
 /* Experience and additonal info styles */
-.experiences {
+/*.experiences {
     flex: 1 1 60%;
     margin-right: 50px;
 }
@@ -264,4 +276,35 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+*/
+/* Personal styles */
+.area-photo {
+    margin-bottom: 10px;
+    width: 175px;
+}
+.description {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 410px;
+    float: left;    
+}
+.description-photo {
+    width:350px;
+    clear: both;
+}
+.description ul {
+    margin-left: 40px;
+}
+hr {
+    width: 50%;
+    border: 1px dotted #ff9a00;
+    margin: 15px auto;
+}
+.diploma-photo {
+    width: 100px;
+}
+.diploma-photo:hover {
+    position: absolute;
+    width: 700px;
 }
